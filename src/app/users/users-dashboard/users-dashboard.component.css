@@ -1,0 +1,38 @@
+#table_user {
+    margin: 20px auto;
+    max-width: 800px;
+    border-collapse: collapse;
+  }
+  
+  table {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+    border-bottom: 2px solid #ddd;
+    color: #333;
+  }
+  
+  td {
+    border-bottom: 1px solid #ddd;
+    color: #555;
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  #table_headers {
+    background-color: #f9f9f9;
+    font-weight: bold;
+  }
+  

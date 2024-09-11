@@ -1,1 +1,15 @@
-<p>user-form works!</p>
+<div id="form">
+    <label for="user_name">Nombre</label>
+    <input type="text" [(ngModel)]="user.name" id="user_name" name="user_name">
+
+    <label for="username">Username</label>
+    <input type="text" [(ngModel)]="user.username" id="username" name="username">
+
+    <label for="user_phone">Teléfono</label>
+    <input type="text" [(ngModel)]="user.phone" id="user_phone" name="user_phone">
+
+    <label for="user_website">Website</label>
+    <input type="text" [(ngModel)]="user.website" id="user_website" name="user_website">
+
+    <button (click)="agregar()">Agregar</button>
+</div>
