@@ -8,7 +8,7 @@ import { IUser } from '../modelo/iuser';
 })
 export class UserService {
 
-  url_base : string = "https://jsonplaceholder.typicode.com/users"
+  private url_base : string = "https://jsonplaceholder.typicode.com/users"
 
   constructor(private _http:HttpClient) { }
 
